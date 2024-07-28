@@ -1,0 +1,84 @@
+.div-checkout-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/product/bg_pattern.jpg);
+  }
+  
+  .div-checkout-main {
+    padding: 10px;
+    margin: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-image: url(../images/product/headerbg.png);
+  }
+  .p-infor{
+    width: 20%;
+    /* white-space: nowrap; */
+    overflow: hidden;
+}
+  
+  h2-checkout {
+    text-align: center;
+  }
+  
+  .div-infor-checkout {
+    margin-top: 30px;
+  }
+  
+  .div-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .table-infor{
+    width: 100%;
+    padding-top: 10px;
+  }
+ 
+  .tr-infor td{
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .table-checkout {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .thead-checkout th {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .td-checkOut {
+    overflow: hidden;
+    padding: 10px;
+    min-width: 300px;
+    text-align: center;;
+  }
+  .h2-checkout button{
+    padding: 10px;
+    background: #14e1ae;
+    outline: none;
+    border: none;
+    color: azure;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .h2-checkout button:active{
+    box-shadow: 0px 0px 36px 8px #42944e;
+-webkit-box-shadow: 0px 2px 36px 8px  #42944e;
+-moz-box-shadow: 0px 2px 36px 8px  #42944e;
+  }
+  .inputDis{
+  background:none;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+ }

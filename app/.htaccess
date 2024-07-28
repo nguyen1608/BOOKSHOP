@@ -1,0 +1,4 @@
+Options All- Indexes
+ErrorDocument 403 /DuAn1-FPT/app/Views/client/layout/Pages/Components/403.html
+ErrorDocument 404 /DuAn1-FPT/app/Views/client/layout/Pages/Components/404.html
+

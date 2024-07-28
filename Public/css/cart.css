@@ -1,0 +1,202 @@
+
+.table-cart {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .div-header-cart{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  .card{
+    background-color: #f2f2f2;
+    width: 60%;
+  }
+  .thead-cart {
+    background-image: url(../images/product/christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+    height: 200px;
+    font-size: 24px;
+  }
+
+  .form-CountPrd{
+    position: relative;
+    display: block;
+  }
+  .subtracts-cart{
+    background-image: url('../images/product/arrright.png');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    border: none;  
+  }
+  .plus-cart{
+    position: absolute;
+    background-image: url('../images/product/arrright.png');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    border: none;  
+    transform: rotate(180deg);
+  }
+  .updateBtn{
+    
+  }
+  .tr-title{
+    background-color: #f2f2f2;
+
+  }
+  .tr-cart {
+    background-color: #f2f2f2;
+  }
+  
+  .td-cart {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  
+  .div-container-cart {
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/product/bg_pattern.jpg);
+    padding: 20px;
+  }
+  
+  .div-main-cart {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-image: url(../images/product/headerbg.png);
+  }
+  input[type="number"] {
+    width: 30px;
+    margin: auto;
+
+  }
+  .td-cart:nth-child(6){
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .td-cart .updateBtn{
+    width: 100%;
+    margin: 5px auto;
+    background-color: #0f5731;
+    color: #ddd;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    border-color: #0f5731;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+  }
+  .td-cart .deleteBtn{
+    width: 100px;
+    margin: 5px auto;
+    background-color: #0f5731;
+    color: #ddd;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    border-color: #0f5731;
+  }
+.button-paying{
+    display: block;
+    margin: 30px auto !important;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #101914;
+    color: #ddd;
+    transition: all 0.6s;
+}
+.button-paying:hover{
+    background-color: #0e974c;
+    
+}
+.form-cartCheckOut{
+  margin: 10px auto ;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.h3-cart{
+  margin: 10px 35px;
+}
+.cart-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-empty img{
+  width: 300px;
+}
+.content_cart-empty h4 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+}
+.content_cart-empty span {
+  margin: 10px 0;
+  color: #999;
+}
+.div-checkContainer{
+  width: 100%;
+  min-height: 500px;
+  background-image: url(../images/product/bg_pattern.jpg);
+  padding-top: 30px;
+}
+.div-mainCheck{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #ccc;
+  background-image: url(../images/product/headerbg.png);
+
+}
+.h3-checkCart{
+  margin-left: 20px;
+}
+.table-checkCart{
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+}
+.thead-checkCart{
+  text-align: center;
+  
+}
+.th-checkCart{
+  padding: 10px;
+  border-bottom: 1px solid rgba(77, 67, 67, 0.256);
+
+}
+.tr-checkCart{
+}
+.td-checkCart{
+  border-bottom: 1px solid rgba(77, 67, 67, 0.256);
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+

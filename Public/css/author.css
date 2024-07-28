@@ -1,0 +1,72 @@
+.div-container-authorList{
+    background-image: url('../images/product/bg_pattern.jpg');
+    
+}
+.div-authorListMain{
+    /* display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: ;
+    gap: 40px; */
+    display: flex;
+    justify-content: center;
+}
+.div-author-box{
+    margin: 20px 0;
+    width: fit-content;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-image: url('../images/product/headerbg.png');
+    padding: 10px;
+    transform: translateX(-50%);
+
+}
+.div-author-bookList{
+    width: 60%;
+}
+.img-author{
+    width: 150px;
+    height: 200px;
+}
+.p-authorName{
+    font-weight: 300;
+    color: black;
+    line-height: 25px;
+    text-align: start;
+}
+.p-authorName:hover{
+    font-weight: 500;
+    color: rgb(255, 13, 13);
+    
+}
+.div-title-banner-author{
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+    position: relative;
+    color: #dcdcdd;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/product/banner-title.png);
+}
+.div-title-banner-author::before{
+    content: "";
+    background-image: url('../images/product/lbleft.png');
+    width: 32px;
+    height: 85px;
+    position: absolute;
+    left: calc(14em + 8px);
+    top: 7px;
+}
+.div-title-banner-author::after{
+    content: "";
+    background-image: url('../images/product/lbright.png');
+    width: 32px;
+    height: 85px;
+    position: absolute;
+    right: calc(14em + 8px);
+    top: 7px;
+}

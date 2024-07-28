@@ -1,0 +1,8 @@
+.search-not-found img{
+    width: 500px;
+}
+.search-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

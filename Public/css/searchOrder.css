@@ -1,0 +1,42 @@
+.div-container-orderSearch{
+    background-image: url('../images/product/bg_pattern.jpg');
+    padding: 10px;
+
+}
+.div-main-orderSearch{
+    margin: 0 auto;
+    width: 70%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-image: url('../images/product/headerbg.png');
+    padding: 20px;
+    min-height: 200px;
+}
+.div-header-orderSearch{
+    display: flex;
+    justify-content: space-around;
+}
+.h2-orderSearch{
+
+}
+.form-orderSearch{
+    width: 30%;
+}
+.input-orderSearch{
+    width: 70%;
+    height: 25px;
+}
+.btn{
+    padding: 5px;
+    background-color: #015e00;
+    border-radius: 20px;
+    color: #ccc;
+}
+.div-content-orderSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 100px;
+}
